@@ -16,7 +16,9 @@ namespace FlyersUp__
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
+            Response.Write("Your registration is successful");
+            Console.WriteLine();
+            Response.Write("     Welcome to Flyers up        ");
         }
     }
 }

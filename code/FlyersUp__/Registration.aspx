@@ -19,13 +19,13 @@
         .auto-style3 {
             color: #000000;
             text-align: right;
-            width: 529px;
+            width: 621px;
         }
         .auto-style4 {
-            width: 529px;
+            width: 621px;
         }
         .auto-style5 {
-            width: 124px;
+            width: 122px;
         }
         .auto-style6 {
             width: 74px;
@@ -55,7 +55,7 @@
                 <td>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBoxEmail" ErrorMessage="Email is required" ForeColor="Red"></asp:RequiredFieldValidator>
                     <br />
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="You must enter valid email ID" ForeColor="Red"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="You must enter valid email ID" ForeColor="Red" ControlToValidate="TextBoxEmail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
@@ -108,5 +108,7 @@
             </tr>
         </table>
     </form>
+    <p>
+        &nbsp;</p>
 </body>
 </html>
