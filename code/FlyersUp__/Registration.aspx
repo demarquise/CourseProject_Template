@@ -10,7 +10,7 @@
             color: #000099;
             font-size: xx-large;
             text-align: center;
-            background-color: #808080;
+            background-color: #C0C0C0;
             height: 92px;
         }
         .auto-style2 {
@@ -30,9 +30,18 @@
         .auto-style6 {
             width: 74px;
         }
+        .auto-style8 {
+            width: 290px;
+        }
+        .auto-style9 {
+            width: 367px;
+        }
+        .auto-style10 {
+            width: 280px;
+        }
     </style>
 </head>
-<body style="height: 88px; color: #C0C0C0; background-color: #FFFFFF">
+<body style="height: 88px; color: #C0C0C0; background-color: #C0C0C0">
     <form id="form1" runat="server">
         <div class="auto-style1">
             <strong>Flyers-Up<br />
@@ -110,5 +119,7 @@
     </form>
     <p>
         &nbsp;</p>
+    <p>
+        <img alt="Related image" class="auto-style8" height="472" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" src="https://t4.ftcdn.net/jpg/01/06/95/99/500_F_106959998_DuJaZmhB5l5gMV0QI6HYBzGNziViTHLX.jpg" style="margin-top: 0px;" /><img alt="Related image" class="auto-style10" height="472" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" src="https://s3.envato.com/files/76885038/Glow%20Party%20IMAGE%20PREVIEW.jpg" style="margin-top: 0px;" /><img alt="Image result for party flyers" class="irc_mi" height="472" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" src="https://styleflyers.com/wp-content/uploads/2017/03/Black-Party-PSD-Flyer-Template-372x537.jpg" style="margin-top: 0px;" width="327" /><img alt="Image result for party flyers" class="auto-style9" height="472" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" src="https://freepsdflyer.com/wp-content/uploads/2015/06/Guest-Dj-Party-Flyer-FREE-PSD-Template-freepsdflyer-com.jpg" style="margin-top: 0px;" /></p>
 </body>
 </html>
