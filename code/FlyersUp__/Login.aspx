@@ -42,9 +42,9 @@
         }
     </style>
 </head>
-<body>
+<body style="height: 205px">
     <form id="form1" runat="server">
-        <div class="auto-style8" style="border-bottom: groove; font-size: xx-large; font-weight: 700; background-color: #808080;" aria-sort="descending">
+        <div class="auto-style8" style="border-bottom: groove; font-size: xx-large; font-weight: 700; background-color: #C0C0C0;" aria-sort="descending">
             <span class="auto-style7">Flyers Up&nbsp;&nbsp;
             <br />
 &nbsp; </span>Login Page<br />
@@ -81,6 +81,10 @@
         </table>
     </form>
     <p>
-&nbsp;</p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
 </body>
 </html>

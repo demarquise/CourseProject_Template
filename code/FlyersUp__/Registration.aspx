@@ -28,7 +28,7 @@
             width: 122px;
         }
         .auto-style6 {
-            width: 74px;
+            width: 63px;
         }
         .auto-style8 {
             width: 290px;
@@ -106,7 +106,7 @@
             <tr>
                 <td class="auto-style4">&nbsp;</td>
                 <td class="auto-style5">
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" Width="49px" />
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" Width="61px" />
                     <input id="Reset1" class="auto-style6" type="reset" value="reset" /></td>
                 <td>&nbsp;</td>
             </tr>
