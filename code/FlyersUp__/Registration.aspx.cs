@@ -18,17 +18,38 @@ namespace FlyersUp__
                 SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["RegistrationConnectionString"].ConnectionString);
                 conn.Open();
 
-                string checkuser = "select count(*) from UserData where  UserNme = '"+TextBoxUserName.Text+"'";
-
+                string checkuser = "select count(*) from UserData where  UserName = '"+TextBoxUserName.Text+"'";
+                SqlCommand com = new SqlCommand(checkuser, conn);
+                int temp = Convert.ToInt32(com.ExecuteScalar().ToString());
+                if(temp == 1)
+                {
+                    Response.Write("User already Exist");
+                }
                 conn.Close();
             }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Write("Your registration is successful");
-            Console.WriteLine();
-            Response.Write("     Welcome to Flyers up        ");
+            try
+            {
+                SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["RegistrationConnectionString"].ConnectionString);
+                conn.Open();
+                string insertQuery = "insert into UserDataTable (UserName,Email,Password,Country) values (@Uname ,@email ,@passwod ,@country) ";
+                SqlCommand com = new SqlCommand(insertQuery, conn);
+                com.Parameters.AddWithValue("@Uname",TextBoxUserName.Text);
+                com.Parameters.AddWithValue("@email", TextBoxEmail.Text);
+                com.Parameters.AddWithValue("@password", TextBoxPassword.Text);
+                com.Parameters.AddWithValue("@country", DropDownListCountry.SelectedItem.ToString());
+
+                com.ExecuteNonQuery();
+
+                conn.Close();
+            }
+           catch (Exception ex)
+            {
+                Response.Write("Error:" + ex.ToString());
+            }
         }
     }
 }
