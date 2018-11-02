@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data.Entity;
 
 
 namespace FlyersUp__.Models
 {
-    public class OurDbContext
+    public class OurDbContext : DbContext
     {
+        public DbSet<UserAccount> userAccount { get; set; }
     }
 }

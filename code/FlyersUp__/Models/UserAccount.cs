@@ -23,7 +23,7 @@ namespace FlyersUp__.Models
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Username is reqired")]
-        public string UserName { get; set; }
+        public string Username { get; set; }
 
         [Required(ErrorMessage = "Password is reqired")]
         [DataType(DataType.Password)]
