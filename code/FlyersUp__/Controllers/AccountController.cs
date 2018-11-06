@@ -33,8 +33,13 @@ namespace FlyersUp__.Controllers
                 }
                 ModelState.Clear();
                 ViewBag.Message = account.FirstName + " " + account.LastName  +  " successfully registered.";
+
+                Response.Redirect("login");
+                
             }
             return View();
+
+          
         }
         //login
 
