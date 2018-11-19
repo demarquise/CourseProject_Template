@@ -1,24 +1,57 @@
 ﻿@{
-    ViewBag.Title = "Flyer Up Home page";
+    ViewBag.Title = "Boone's ATM Home page";
 }
 
-<div class="jumbotron">
-    <h1>Flyers-Up</h1>
-    <p class="lead">A place where you can post you personel flyers.</p>
-    
-</div>
 
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6 margin-top-20">
+        <a href="#" class="btn  btn-primary btn-large btn-block">
+            <span class="glyphicon
+          glyphicon-circle-arrow-down"></span>Withdrawal
+        </a>
+        <a href="#" class="btn  btn-primary btn-large btn-block">
+            <span class="glyphicon
+          glyphicon-flash"></span>Quick Cash $100
+        </a>
+        <a href="#" class="btn  btn-primary btn-large btn-block">
+            <span class="glyphicon
+          glyphicon-question-sign"></span>Balance Inquiry
+        </a>
+    </div>
+    <div class="col-md-6 margin-top-20">
+        <a href="#" class="btn  btn-primary btn-large btn-block">
+            <span class="glyphicon
+          glyphicon-print"></span>Print Statment
+        </a>
+        <a href="#" class="btn  btn-primary btn-large btn-block">
+            <span class="glyphicon
+          glyphicon-transfer"></span>Transfer Funds
+        </a>
+        <a href="#" class="btn  btn-primary btn-large btn-block">
+            <span class="glyphicon
+          glyphicon-circle-arrow-up"></span>Deposit
+        </a>
+
+    </div>
+
+    @section scripts{
+        <script>var testing = true;</script>
+    }
+
+
+
+
+
+
+    @*
         <h2>Register</h2>
         <p>
-            Get started today an post some flyers.
+            Get sarted today
         </p>
         <p><a class="btn btn-default" href="http://localhost:58880/Account/Register">Register</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Login</h2>
-        <p>If you already have am account with us.</p>
-        <p><a class="btn btn-default" href="http://localhost:58880/Account/login">Login</a></p>
-    </div>
-</div>
+            </div>
+        <div class="col-md-6">
+            <h2>Login</h2>
+            <p>If you already have am account with us.</p>
+            <p><a class="btn btn-default" href="http://localhost:58880/Account/login">Login</a></p>
+    *@

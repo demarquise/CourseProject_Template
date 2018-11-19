@@ -157,12 +157,6 @@
     <None Include="Scripts\umd\popper.min.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AutomatedTellermachine\AutomatedTellermachine.csproj">
-      <Project>{43B56666-E3FF-4820-AD42-D19682AC83D0}</Project>
-      <Name>AutomatedTellermachine</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
