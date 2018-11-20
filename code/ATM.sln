@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automattedtellermachine", "FlyersUp__\Automattedtellermachine.csproj", "{8251F34B-CAF8-47C6-98DA-2C5476E2B6E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{35119084-FA7C-4818-BB66-178D73F19434}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTellerMachine.Tests", "UnitTestProject1\AutomatedTellerMachine.Tests.csproj", "{35119084-FA7C-4818-BB66-178D73F19434}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
