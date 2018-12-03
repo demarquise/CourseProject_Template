@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FlyersUp__.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,9 +16,16 @@ namespace FlyersUp__.Controllers
         }
 
         // GET: CheckingAccount/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details()
         {
-            return View();
+            var checkingAccount = new CheckingAccount
+            {
+                AccountNumber = "000012345",
+                FirstName = "Micheal",
+                LastName = "Sullican",
+                Balance = 500
+            };
+            return View(checkingAccount);
         }
 
         // GET: CheckingAccount/Create

@@ -247,10 +247,10 @@
     <Content Include="UserInfo.edmx.diagram">
       <DependentUpon>UserInfo.edmx</DependentUpon>
     </Content>
+    <Content Include="Views\CheckingAccount\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\CheckingAccount\" />
     <Folder Include="Views\Post\" />
   </ItemGroup>
   <ItemGroup>
